@@ -1,4 +1,4 @@
-**   Flexbox模型**
+**Flexbox模型**
 
 * 主轴、主轴方向\(main axis \|main dimension\)：用户代理沿着一个伸缩容器的主轴配置伸缩项目，主轴是主轴方向的延伸。
 
@@ -14,33 +14,49 @@
 
 ![](/assets/WX20170421-101855.png)
 
+
+
+
+
 **Flexbox属性**
 
-* **Flex-direction: 属性决定主轴的方向（即项目的排列方向）**
+Flex-direction: 属性决定主轴的方向（即项目的排列方向）。
 
-* Row : \(默认值\) 主轴为水平方向，起点在左端
-
-* Row-reverse: 主轴为水平方向，起点在右端.
-* Column : 主轴为垂直方向，起点在上沿.
+* Row : \(默认值\) 主轴为水平方向，起点在左端。
+* Row-reverse: 主轴为水平方向，起点在右端。
+* Column : 主轴为垂直方向，起点在上沿。
 * Column-reverse : 主轴为垂直方向，起点在下沿。
 
-* **Flex-wrap：属性 默认情况下，项目都排在一条线（又称轴线）上。Flex-wrap属性定义，如果一条轴线排不下，如何换行。**
+  
+
+
+Flex-wrap：属性 默认情况下，项目都排在一条线（又称轴线）上。Flex-wrap属性定义，如果一条轴线排不下，如何换行。
 
 * Nowrap:（默认） 不换行
-
-* Wrap:换行，第一行在上方
+* Wrap:换行，第一行在上方。
 * Wrap-reverse:换行，第一行在下方。
 
-* **Flex-flow: 属性是flex-direction属性和flex-wrap属性的简写方式，默认值为row nowrap。**
+  
 
-* **Justify-content：定义了项目在主轴上的对齐方式。**
+
+Flex-flow: 属性是flex-direction属性和flex-wrap属性的简写方式，默认值为row nowrap。
+
+  
+
+
+Justify-content：定义了项目在主轴上的对齐方式。
 
 * Flex-start\(默认值\): 左对齐。
-
 * Flex-end：右对齐。
 * Center：居中。
 * Space-between:两端对齐，项目之间的间隔相等。
 * Space-around：每个项目两侧的间隔相等，所以，项目之间的间隔比项目与边框的间隔大一倍。
+
+  
+
+
+  
+
 
 
 
