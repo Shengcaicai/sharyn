@@ -2,7 +2,7 @@
 
 * [前言](README.md)
 * [html](javascript.md)
-  * [第一章 基本概念](html/di-yi-zhang-ji-ben-gai-nian.md)
+  * [语义化标签](html/di-yi-zhang-ji-ben-gai-nian.md)
 * [javascript](javascript.md)
   * [第一章 基本概念](javascript/di-yi-zhang-ji-ben-gai-nian.md)
 * [project](new.md)
