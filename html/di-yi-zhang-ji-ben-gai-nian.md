@@ -28,8 +28,6 @@ html元素的语义化及排版注意
 
 一些常用的html元素，特别是html文本元素的语义化使用中，也有一些可以优化及需要注意的地方
 
-
-
 &lt;strong&gt;和&lt;b&gt;，&lt;em&gt;和&lt;i&gt;，其效果差不多是一样的，但是前者的语义化更加友好
 
 白色空间折叠：当浏览器遇到两个或者两个以上的白色空间元素（空格，换行）时，会折叠成一个空格。自己编码时注意换行应该用&lt;br&gt;。
@@ -56,7 +54,9 @@ label的for属性与控件的id对应，比如
 
 &lt;label for="username"&gt;请输入用户名: &lt;/label&gt;
 
-      &lt;input type="text" id="username" name="username"&gt;
+```
+  &lt;input type="text" id="username" name="username"&gt;
+```
 
 label内嵌控件，比如
 
@@ -65,6 +65,4 @@ label内嵌控件，比如
 placeholder属性，其值会在输入字段为空时显示，并会在字段获得焦点时消失
 
 对于表单中的单选radio控件和复选checkbox控件以及下拉框select控件，可以为radio, checkbox添加checked属性以及为option添加selected属性让其默认选中
-
-
 
